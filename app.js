@@ -28,6 +28,8 @@ class TodoListItem extends React.Component {
         }
         return(
         <li style={style} onClick={this.onListItemClick.bind(this)}>{this.props.todo}</li>
+            //style = {} (essentially setting key value pairs in an already created object)
+            //if iterating, have key, also be sure to be returning`
         )
     }
 }
